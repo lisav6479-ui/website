@@ -1,0 +1,565 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.3);  
+}
+
+a:hover{
+    text-decoration: none;
+    color: #F95A5A;
+}
+
+a.aha{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.topp {
+    width: 100px;
+    margin-left: -800px;
+}
+
+.topp2 {
+    margin-left: 26px;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(255, 243, 246);
+}
+
+.container {
+    height: 100px;
+    width: 1337px;
+    margin: 0% auto;
+}
+
+.razdel {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ikonki{
+    margin-right: -20px;
+    width: 290px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fonheader {
+    border-radius: 10px;
+    height: 100px;
+    background-color: #FEE2E7;
+}
+
+.textvheader {
+    margin-left: -20px;
+    font-size: 32px;
+    color: rgb(0, 0, 0, 0.3);
+}
+
+.container2 {
+    height: 705px;
+    width: 1360px;
+    margin: 0% auto;
+}
+
+.fonvkladka{
+    border-radius: 10px;
+    width: 1130px;
+    height: 74px;
+    margin: 0% auto;
+    background-color: #FEE2E7;
+}
+
+.contforvkl{
+    height: 167px;
+    width: 1130px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+}
+
+.fonvkladka1{
+    border-radius: 10px;
+    width: 440px;
+    height: 49px;
+    margin: 0% auto;
+    background-color: #FFDDDD;
+}
+
+.text3{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 49px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+.text4{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 49px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+.fonvkladka2{
+    border-radius: 10px;
+    width: 440px;
+    height: 49px;
+    margin: 0 auto;
+    background-color: #FFDDDD;
+}
+
+.fonmain {
+    border-radius: 10px;
+    height: 705px;
+    width: 1360px;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 262px;
+    height: 203px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+}
+
+.vkladkiii{
+    width: 940px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tovar{
+    width: 1130px;
+    height: 428px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+}
+
+.tovarkard{
+    width: 1230px;
+    height: 386px;
+    display: flex;
+    align-items: center;
+}
+
+
+.text{
+    margin-left: -75%;
+    font-size: 30px;
+    font: medium;
+}
+
+.text2{
+    margin-left: -80%;
+    font-size: 30px;
+    font: medium;
+}
+
+
+.container3 {
+    width: 1360px;
+    height: 210px;
+    margin: 0% auto;    
+}
+
+.fonfooter {
+    border-radius: 10px;
+    background-color: rgb(244, 204, 211, 0.6);
+}
+
+.razdel3 {
+    height: 210px;
+    color: rgb(0, 0, 0, 0.3);    
+}
+
+.textvfooter{
+    width: 1360px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+}
+
+.samtext{
+    margin-left: 45%;
+    font-size: 22px;
+}
+
+.ikon{
+    margin-left: 24%;
+    width: 1060px;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ikonki2{
+    height: 121px;
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Vkcon{
+    font-size: 22px;
+    height: 55px;
+    width: 171px;
+}
+
+.Tgcon{
+    font-size: 22px;
+    height: 55px;
+    width: 156px;
+}
+
+.YTcon{
+    font-size: 22px;
+    height: 55px;
+    width: 163px;
+}
+
+.container4 {
+    width: 1360px;
+    height: 71px;
+    margin: 0 auto;    
+}
+
+.razdel4 {
+    margin-left: 7%;
+    font-size: 20px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0, 0.3);    
+}
+
+.fonfooter2 {
+    border-radius: 10px;
+    background-color: rgb(229, 217, 219, 0.4);
+}
+
+.sub-menu 
+{ 
+   display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: block; 
+} 
+
+.tovarkard {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .tovarkard::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll {
+    display: flex;
+  }
+
+  .yep {
+    border-radius: 10px;
+    width: 210px;
+    height: 386px;
+    background-color: #FCF6FA;
+  }
+
+  .texttt {
+    width: 180px;
+    height: 34px;
+  }
+
+  .textt {
+    font-size: 18px;
+    margin-left: 6%;
+    width: 210px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text44{
+    font-size: 20px;
+    margin-left: 32%;
+    width: 210px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+
+  .fonn{
+    width: 165px;
+    height: 38px;
+    background-color: #FADFF1;
+    border-radius: 25px;
+  }
+
+  .fonk{
+    margin-left: 28%;
+    width: 165px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+  }
+
+.prosto {
+    width: 1360px;
+    height: 705px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+}
+
+.container222 {
+    width: 480px;
+    height: 617px;
+    background-color: rgb(250, 223, 241, 0.3);
+    border-radius: 10px;
+    margin: 0% auto;
+    display: grid;
+    align-items: center;
+    grid-template-areas: "s s s"
+                         "o o o"
+                         "p p p"
+                         "i i i"
+                         "k k k"
+                         "m m m"
+                         "l l l"
+                         "n n n"
+                         ". . ."
+}
+
+.pole1 { grid-area: o; }
+.pole2 { grid-area: p; }
+.avt { grid-area: s;}
+.buttonv { grid-area: i; }
+.prrr { grid-area: k; }
+.txt1 { grid-area: m; }
+.txt2 { grid-area: l; }
+.prrr2 { grid-area: n; }
+
+.pole1 {
+    margin-left: 20px;
+    width: 440px;
+    height: 55px;
+}
+
+.pole2 {
+    margin-left: 20px;
+    width: 440px;
+    height: 55px;
+}
+
+.avt {
+    font-size: 20px;
+}
+
+.buttonv {
+    font-size: 20px;
+}
+
+.prrr {
+    font-size: 20px;
+}
+
+.txt1 {
+    font-size: 24px;
+}
+
+.txt2 {
+    margin-left: 30px;
+    width: 420px;
+    font-size: 20px;
+}
+
+.prrr2 {
+    font-size: 20px;
+}
+
+
+/* Контейнер для кнопки, чтобы не прыгал контент, когда она сменит позиционирование */
+.css-modal-details {
+	height: 60px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+/* Кнопка для открытия */
+.css-modal-details summary {
+	display: inline-flex;
+	text-decoration: none;
+	position: relative;
+	font-size: 24px;
+	padding: 12px 30px;
+	color: rgb(0, 0, 0);
+	background: #FADFF1;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;	
+}
+.css-modal-details summary:hover{
+	background-color: #FFD3D5;
+}
+.css-modal-details summary:active{
+	background-color: #F8C8E8;
+}
+.css-modal-details summary:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -50px;
+	bottom: 0;
+	left: 0;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #FADFF1;
+	transition: transform 0.5s;
+	transform: translateX(-100%);
+	z-index: -1;
+}
+
+/* Кнопка при открытом окне переходит на весь экран */
+.css-modal-details details[open] summary {
+	cursor: default;
+	opacity: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+}
+
+/* Контейнер, который затемняет страницу */
+.css-modal-details details .cmc {
+	display:flex;
+	align-items:center;
+	justify-content:center;	
+}
+.css-modal-details details[open] .cmc {
+	pointer-events: none;
+	z-index: 4;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	animation: bg 0.5s ease;
+	background: rgba(250, 223, 241, 0.8);
+}
+
+/* Модальное окно */
+.css-modal-details details .cmt {
+    justify-content: center;
+    align-items: center;
+	font-size: 20px;
+	padding: 10px;
+	width:80%;
+	max-width: 400px;
+	max-height: 70%;
+	transition: 0.5s;
+	border: 6px solid #FFD3D5;
+	border-radius: 25px;
+	background: #FFF;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+	text-align: center;
+	overflow: auto;
+}
+.css-modal-details details[open] .cmt {
+	animation: scale 0.5s ease;
+	z-index: 4;
+	pointer-events: auto;
+}
+
+/* Декоративная кнопка с крестиком */
+.css-modal-details details[open] .cmc:after {
+	content: "";
+	width: 50px;
+	height: 50px;
+	border: 6px solid #FFD3D5;
+	border-radius: 12px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23337AB7' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='18' y1='6' x2='6' y2='18'%3e%3c/line%3e%3cline x1='6' y1='6' x2='18' y2='18'%3e%3c/line%3e%3c/svg%3e");
+	background-color: #FFF;
+	background-size: cover;
+	animation: move 0.5s ease;
+}
+
+/* Анимации */
+@keyframes scale {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes move {
+	0% {
+		right: -80px;
+	}
+	100% {
+		right: 20px;
+	}
+}
+@keyframes bg {
+	0% {
+		background: rgba(51, 122, 183, 0);
+	}
+	100% {
+		background: rgba(250, 223, 241, 0.8);
+	}
+}
+
+.nubex {
+	color: #000000;
+	user-select: none;  
+	outline: none; 
+    border: none;
+	background-color:  #FADFF1;
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.nubex:active {
+background-color: #DCAACB;
+}
+
+.nubex:hover {
+	background-color: #FFD3D5;
+}
